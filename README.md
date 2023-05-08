@@ -1,4 +1,4 @@
-
+<body>
  
     <h1>Quotes Studio</h1>
     
@@ -32,7 +32,7 @@
     
     <h2>API Reference</h2>
     <p>The app uses a free API to display quotes. You can find the API documentation <a href="https://example.com/api/documentation">here</a>.</p>
-    
+    </body>
     <h2>Contributing</h2>
     <p>Contributions are welcome! If you find a bug or want to suggest a new feature, please submit an issue or pull request.</p>
     
