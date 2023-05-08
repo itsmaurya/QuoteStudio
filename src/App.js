@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import AQuote from './AQuote'
+import Navbar from './Navbar'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import MQuote from './MQuote'
+import AddQuote from './AddQuote'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <BrowserRouter>
+        <Navbar/>
+        <Routes>
+            <Route path='/' element={<AQuote/>}></Route>
+            <Route path='/mquotes' element={<MQuote/>}></Route>
+            <Route path='/addquotes' element={<AddQuote/>}></Route>
+            
+        </Routes>
+        
+        </BrowserRouter>
     </div>
-  );
+  )
 }
-
-export default App;
