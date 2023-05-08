@@ -10,10 +10,10 @@ To get started with the app, simply clone the repository and install the necessa
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/quotes-web-app.git
+https://github.com/itsmaurya/QuoteStudio.git
 
 # Change into the project directory
-cd quotes-web-app
+cd QuotesStudio
 
 # Install dependencies
 npm install
