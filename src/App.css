@@ -1,14 +1,18 @@
+body{
+  background-color: #def4e4;
+}
 .App {
   display: flex;
   /* margin: 10px; */
-  background-color: #def4e4;
   flex-wrap: wrap;
+  
 }
 .App .container{
     margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
     margin-inline: 30px;
+    min-height: 100vh; 
 }
 .box {
   margin: 20px;
@@ -18,6 +22,7 @@
   font-family:Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   border-radius: 10px;
+  
 }
 .quote{
     font-weight: 700;
@@ -46,7 +51,49 @@ button:hover{
   color: #d0edfc;
 }
 
+.footer{
+  display: flex;
+  
+  background-color: #002147;
+  width: 100%;
+  height: 100px;
+  
+  color: #d0edfc;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.footer a{
+  text-decoration: none;
+  color: #def4e4;
+  margin: 10px;
+}
+.footer img{
+  height: 35px;
+  width: 35px;
+  background-color: #def4e4;
+  border-radius: 45px;
+}
+.footer .linkedin{
+  margin-left: 54px;
+  height: 35px;
+  width: 35px;
+  background-color: #def4e4;
+  border-radius: 7px;
+}
+.footer h1{
+  font-size: larger;
+}
+
 @media (max-width: 768px){
+
+  .App .container{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline: 5px;
+    
+}
     .box {
         margin: 15px;
        
@@ -58,5 +105,36 @@ button:hover{
         text-align: center;
         
       }
-      
+
+      .footer{
+        background-color: #002147;
+        width: 100%;
+        height: 90px;
+        color: #d0edfc;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      .footer a{
+        text-decoration: none;
+        color: #def4e4;
+        
+      }
+      .footer h1{
+        font-size:small;
+      }
+      .footer img{
+        height: 15px;
+        width: 15px;
+        background-color: #def4e4;
+        border-radius: 15px;
+      }
+      .footer .linkedin{
+        margin-left: 15px;
+        height: 15px;
+        width: 15px;
+        background-color: #def4e4;
+        border-radius: 3px;
+      }
 }
