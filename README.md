@@ -1,5 +1,5 @@
 
-  <body>
+ 
     <h1>Quotes Studio</h1>
     
     <h2>Description</h2>
@@ -37,5 +37,5 @@
     <p>Contributions are welcome! If you find a bug or want to suggest a new feature, please submit an issue or pull request.</p>
     
     
-  </body>
+  
 
