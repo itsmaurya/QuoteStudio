@@ -2,7 +2,7 @@
 
 # Quotes Studio Web App
 
-This is a simple web app that displays quotes from a free API and allows users to add their own quotes manually. It was built using ReactJS and CSS.
+This is a simple web app that displays quotes from a free API and allows users to add their own quotes manually. It was built using ReactJS Firebase, Ninja Free quotes api , HTML and CSS.
 
 ## Getting Started
 
